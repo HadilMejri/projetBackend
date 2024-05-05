@@ -2300,11 +2300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\backendv2\\projnet.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj",
       "projectName": "projnet",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\backendv2\\projnet.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\backendv2\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\backendv3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

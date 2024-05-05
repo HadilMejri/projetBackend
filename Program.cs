@@ -15,14 +15,14 @@ namespace projnet
             using (Py.GIL())
             {
                 dynamic sys = Py.Import("sys");
-                sys.path.append(@"C:\Users\LENOVO\Desktop\backendv0"); // répertoire contenant le script Python
+                sys.path.append(@"C:\Users\LENOVO\Desktop\backendv3"); // répertoire contenant le script Python
 
                 dynamic module = Py.Import("open"); // nom du module Python sans l'extension .py
-                module.extract_text_from_image(@"C:/Users/LENOVO/Desktop/backendv0/CTN471.jpg", @"C:/Users/LENOVO/Desktop/backendv0"); // appeler la fonction avec les bons arguments
+                module.extract_text_from_image(@"C:/Users/LENOVO/Desktop/backendv3/CTN471.jpg", @"C:/Users/LENOVO/Desktop/backendv3"); // appeler la fonction avec les bons arguments
             }
             
             // Lire le contenu du fichier texte
-            string filePath = @"C:\Users\LENOVO\Desktop\backendv2\CTN471.txt";
+            string filePath = @"C:\Users\LENOVO\Desktop\backendv3\CTN471.txt";
             string content = File.ReadAllText(filePath);
             Console.WriteLine(content);
 
