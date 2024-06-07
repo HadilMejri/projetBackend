@@ -24,5 +24,18 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  }
+  },
+  "configurations": [
+    {
+        "name": "Launch Chrome against localhost",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:4200",
+        "webRoot": "${workspaceFolder}",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+        }
+    }
+]
+
 }

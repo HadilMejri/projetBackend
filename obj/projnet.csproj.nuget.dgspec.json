@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\backendv8\\projnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\backendv8\\projnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\backendv8\\projnet.csproj",
         "projectName": "projnet",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\backendv3\\projnet.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\backendv8\\projnet.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\backendv3\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\backendv8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
